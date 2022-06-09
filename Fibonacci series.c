@@ -19,3 +19,29 @@ int fib(int n)
    }   
     return (fib(n-1)+ fib(n-2));
 }   
+
+
+
+
+
+/*C progarm to print factorial of a number using recursive function*/
+#include<stdio.h>
+int fact(int);
+int main()
+{
+    int n,c;
+    printf("Enter a number");
+    scanf("%d",&n);
+    printf("The factorial is: %d",fact(n));
+}
+int fact(int n)
+{
+   if (n==1||n==0)
+   {
+       return (1);
+   }
+   else
+   {
+    return (n*fact(n-1));
+   } 
+}   
