@@ -44,4 +44,23 @@ int fact(int n)
    {
     return (n*fact(n-1));
    } 
-}   
+}  
+
+
+/*Function with argument and return value*/
+#include<stdio.h>  
+int area(int, int);  
+int  main()  
+{  
+    int l,b;    
+    printf("\nEnter length and breadth:");  
+    scanf("%d %d",&l,&b);  
+    int x= area(l,b);  
+    printf("\nThe area is: %d",x);  
+}  
+int area(int l, int b)  
+{  
+    return l*b;  
+}  
+
+
