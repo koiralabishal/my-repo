@@ -1,4 +1,4 @@
-/*Finction without argument and return value*/
+/*Function without argument and return value*/
 #include<stdio.h>  
 void area();  
 void  main()  
