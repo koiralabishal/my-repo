@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last page</title>
+    <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-16h-cn53JL-P2Taoy7noZIJOYupHgQl5rouJa9JO&s" rel="shortcut icon">
+</head>
+<body>
+   <header>
+    <pre>
+        <b><i><u>THIs is the last page containing table forum and list layouts and tags</u></i></b>
+    </pre>
+   </header>
+
+<main>
+<!--unordered list ul --unordered list li---list item -->
+<ul>
+    <li>Apple</li>
+    <!-- sublist -->
+    <ul>
+        <li>color:red</li>
+        <li>shape :circular</li>
+    </ul>
+    <li>banana</li>
+    <li>guava</li>
+</ul>
+<!-- orderred list ol -->
+<ol>
+    <li>Apple</li>
+    <!-- sublist -->
+    <ol>
+        <li>color:red</li>
+        <li>shape :circular</li>
+    </ol>
+    <li>banana</li>
+    <li>guava</li>
+</ol>
+<hr>
+<br>
+<p>
+    <b>
+        Tables:::<br>
+    </b>
+</p>
+<!-- table row table data table header <tr></tr> <td></td> <th></th> -->
+<table>
+    <tr>
+        <th>
+            Fruits
+        </th>
+        <th>Color</th>
+    </tr>
+    <tr>
+        <td>
+            Apple
+        </td>
+        <td>red</td>
+    </tr>
+    <tr>
+        <td>guava</td>
+        <td>green</td>
+    </tr>
+</table><hr>
+<p><i><u>adding caption on the table and thead and tbody </u></i></p>
+
+<table>
+    <thead>
+    <caption>fruit data</caption>
+    <tr>
+        <!-- <th>
+            Fruits
+        </th>
+        <th>Color</th> -->
+         <th colspan="2"><!--colspan let u totake over dedicated num of rows -->
+            FRUITS
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            Apple
+        </td>
+        <td>red</td>
+    </tr>
+    <tr>
+        <td>guava</td>
+        <td>green</td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<!-- forum in html  -->
+<p>
+    <b><i><h1>Form in Html</h1></i></b>
+</p>
+<form action="/action.php"><!--goes back to php --backend  -->
+    <h2>ENTER USERNAME AND PASSWORD</h2>
+   <input type="text" placeholder="username">
+   <input type="password" placeholder="password">
+   <br>
+   <hr>
+   <p>
+    <i><u><h3>creting button selection :</h3></u></i>
+   </p>
+   <br>
+   <h2>SELECT YOUR PRESENT CLASS</h2>
+   <label id="101">
+   <input type="radio" value="class 9" name="class" id="101"> Class 9
+   </label>
+   <label id="102">
+   <input type="radio" value="class 10" name="class" id="102"> Class 10
+   </label><!---label makes the word or content ouside also clicalble -->
+   <br>
+   <label id="103">
+   <input type="radio" value="class 11" name="class" id="103"> Class 11
+   </label>
+   <label id="104">
+   <input type="radio" value="class 12" name="class" id="104"> Class 12
+   </label>
+   <!-- class name goes to backend for further..... -->
+   <!-- selecting multiple options -->
+   <hr><br>
+   <h2>SELECT YOUR BEST CLASS(S)</h2>
+   <label id="101">
+    <input type="checkbox" value="class 9" name="class" id="101"> Class 9
+    </label>
+    <label id="102">
+    <input type="checkbox" value="class 10" name="class" id="102"> Class 10
+    </label><!---label makes the word or content ouside also clicalble -->
+    <br>
+    <label id="103">
+    <input type="checkbox" value="class 11" name="class" id="103"> Class 11
+    </label>
+    <label id="104">
+    <input type="checkbox" value="class 12" name="class" id="104"> Class 12
+    </label>
+    <hr><br>
+        <!--selection among several options-->
+        <h3>ENTER YOUR CITY NAME</h3>
+        <select name="city">
+            <option value="Pokhara">Pokhara</option>
+            <option value="Kathmandu">Kathmandu</option>
+            <option value="Dharan">Dharan</option>
+            <option value="Biratnagar">Biratnagar</option>
+            <option value="Itahari">Itahari</option>
+            <option value="Solukhumbu">Solukhumbu</option>
+            <option value="Illam">Illam</option>
+            <option value="Syangja">Syangja</option>
+        </select>
+        <hr><br>
+    <!-- feedback giving -->
+    <textarea name=" Feedback" id="fbk" placeholder="please return your precious comment here " rows="5" cols="20"></textarea>
+    <hr><br>
+    <input type="submit" value="submit">
+    <!-- it goes to backend php------->
+   
+    <br>
+
+</form>
+
+</main>
+    <footer>
+        <br>
+        <hr>
+    <a href="/intro.html">Back to My introduction</a>
+    <br><br><br><br>
+    <hr>
+    </footer>
+</body>
+</html>
