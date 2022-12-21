@@ -2,10 +2,13 @@
 using namespace std;
 class SI
 {
+    int pr,tp;
     public:
        void simple_interest(int p, int t, int r=10)
        {
-            cout<<"Simple interest is: Rs."<<p*t*r<<"/-"<<endl;
+            pr=p;
+            tp=t;
+            cout<<"Simple interest is: Rs."<<(p*t*r)/1000<<"/-"<<endl;
        }
 };
 int main()

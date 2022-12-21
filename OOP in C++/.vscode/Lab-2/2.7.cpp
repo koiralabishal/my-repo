@@ -11,7 +11,7 @@ class Area
        }
        void area(int l,int b)
        {
-          cout<<"Area of rectangle is: "<<l*b<<endl;;
+          cout<<"Area of rectangle is: "<<l*b<<endl;
        }
        float area(int,int r,int)
        {
@@ -29,5 +29,5 @@ int main()
     a.area(PI,r,s);*/
     a.area(4);
     a.area(4,5);
-    a.area(1,2,1);
+    a.area(0,2,0);
 }

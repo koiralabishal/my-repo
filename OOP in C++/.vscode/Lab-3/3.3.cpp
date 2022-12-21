@@ -3,11 +3,13 @@
 using namespace std;
 class Demo
 {
-    //int num1,num2;
+    int num1,num2;
     public:
-       void swapdata(int num1,int num2)
+       void swapdata(int m,int n)
        {
           cout<<endl<<endl;
+          num1=m;
+          num2=n;
           cout<<"Value after swapping:"<<endl;
           cout<<"A: "<<num1<<setw(8)<<"B: "<<num2;
        }

@@ -24,7 +24,7 @@ class DM
        }
        friend void showtotal(DB,DM);
 };
-inline void showtotal(DB m,DM n)
+void showtotal(DB m,DM n)
 {
     cout<<endl;
     int sum=m.d+m.d1*100+n.dis*0.3048+n.dis1*0.0254;//convert centimeter,feet and inch into meter 

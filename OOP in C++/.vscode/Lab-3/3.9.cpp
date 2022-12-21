@@ -4,10 +4,10 @@ class Employee
 {
     char name[20],add[20],ph[20];
     int salary,net_salary,tax;
-        void calculate()
-        {
-            net_salary=salary-tax;
-        }
+    void calculate()
+    {
+        net_salary=salary-tax;
+    }
     public:
         void calculate_net_salary()
         {

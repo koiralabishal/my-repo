@@ -16,7 +16,7 @@ class PEC
 {
     int m;
     public:
-        inline void get_data1()
+        void get_data1()
          {
            cout<<"Enter no.of students of PEC"<<endl;
            cin>>m;

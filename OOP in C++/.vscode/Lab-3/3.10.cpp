@@ -1,5 +1,4 @@
 #include<iostream>
-#include<math.h>
 using namespace std;
 class Demo
 {
@@ -26,5 +25,5 @@ int main()
     d2.getdata();
     d3.getdata();
     d4.getdata();
-    d.showcount();
+    d4.showcount();
 }
